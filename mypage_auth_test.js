@@ -206,7 +206,7 @@ export default function MyPageAuth({userInfo}) {
           </div>
 
           <div  className="mgt20" ref={otpQR}  >
-            <h1> 2. {getLocaleContent('word', 'mypage_tit2')}</h1>
+            <h1> 22. {getLocaleContent('word', 'mypage_tit2')}</h1>
             <p id="vtab2-level4-otp-key-setting-text">{getLocaleContent('word', 'mypage_tit2')}</p> 
             <div className="my-key">
               <span id="vtab2-level4-otp-qrcode"  title={userInfo.googleOtpKey} className="my-key-qr" >
